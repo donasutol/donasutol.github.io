@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     
-    <title>自我指涉</title>
+    <title>阶段性总结 | 自我指涉</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -15,11 +15,11 @@
     <meta name="description" content="一个温吞的丶即将崩殂的博客">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="自我指涉">
+    <meta name="twitter:title" content="阶段性总结 | 自我指涉">
     <meta name="twitter:description" content="一个温吞的丶即将崩殂的博客">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="自我指涉">
+    <meta property="og:title" content="阶段性总结 | 自我指涉">
     <meta property="og:description" content="一个温吞的丶即将崩殂的博客">
 
     
@@ -145,7 +145,7 @@
       </span> 
    
     </div>
-    <h1 class="post-title"></h1>
+    <h1 class="post-title">阶段性总结</h1>
   </header>
 
   <section class="post">
@@ -167,13 +167,7 @@
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> 表名 <span class="keyword">limit</span>;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>4.聚合函数</p>
-<ul>
-<li>count(),统计</li>
-<li>sum(),求和</li>
-<li>max(),最大值</li>
-<li>min(),最小值</li>
-<li>avg(),平均值</li>
-</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">count(),统计</span><br><span class="line">sum(),求和</span><br><span class="line">max(),最大值</span><br><span class="line">min(),最小值</span><br><span class="line">avg(),平均值</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>5.分组查询</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> 表名 <span class="keyword">group</span> <span class="keyword">by</span> 条件;</span><br></pre></td></tr></table></figure>
@@ -202,22 +196,19 @@
 </li>
 </ul>
 <h3 id="二、JDBC"><a href="#二、JDBC" class="headerlink" title="二、JDBC"></a>二、JDBC</h3><ul>
-<li>1.导入jar包:<ul>
+<li><p>1.导入jar包:</p>
+<ul>
 <li>1.驱动jar</li>
 <li>2.连接池jar</li>
 <li>3.JDBCTemplate的jar</li>
 </ul>
 </li>
-<li>2.会修改连接池的配置文件</li>
-<li>3.会使用JDBCUtil工具类</li>
-<li>4.会使用JdbcTemplate<ul>
-<li>1.new JdbcTemplate(连接池)</li>
-<li>2.update()方法，执行增删改语句</li>
-<li>3.queryForObject(),执行查询:查询单个值或者是一条数据封装到JavaBean中</li>
-<li>4.queryForMap(),查询一条数据封装到Map中</li>
-<li>5.queryForList()，查询多条数据封装到Map中，再将所有map封装到List集合中</li>
-<li>6.query()，查询多条数据封装到JavaBean中，再将所有JavaBean封装到List集合中</li>
-</ul>
+<li><p>2.会修改连接池的配置文件</p>
+</li>
+<li><p>3.会使用JDBCUtil工具类</p>
+</li>
+<li><p>4.会使用JdbcTemplate</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1.new JdbcTemplate(连接池)</span><br><span class="line">2.update()方法，执行增删改语句</span><br><span class="line">3.queryForObject(),执行查询:查询单个值或者是一条数据封装到JavaBean中</span><br><span class="line">4.queryForMap(),查询一条数据封装到Map中</span><br><span class="line">5.queryForList()，查询多条数据封装到Map中，再将所有map封装到List集合中</span><br><span class="line">6.query()，查询多条数据封装到JavaBean中，再将所有JavaBean封装到List集合中</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <h3 id="三、前端的知识"><a href="#三、前端的知识" class="headerlink" title="三、前端的知识"></a>三、前端的知识</h3><ul>
@@ -238,37 +229,25 @@
 <li><p>8.jQuery的其它选择器(了解);基本过滤选择器;表单属性选择器</p>
 </li>
 <li><p>9.jQuery的一些方法</p>
-<ul>
-<li>val();获取value 值</li>
-<li>html();获取html 内容</li>
-<li>css();获取样式</li>
-<li>text();获取文本内容</li>
-<li>attr();获取\设置属性值</li>
-<li>prop();获取\设置属性值</li>
-<li>addClass();添加类样式</li>
-<li>removeAttr();移除</li>
-</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">val();获取value 值</span><br><span class="line">html();获取html 内容</span><br><span class="line">css();获取样式</span><br><span class="line">text();获取文本内容</span><br><span class="line">attr();获取\设置属性值</span><br><span class="line">prop();获取\设置属性值</span><br><span class="line">addClass();添加类样式</span><br><span class="line">removeAttr();移除</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>10.js中的函数声明:</p>
 <ul>
 <li><p>普通函数和匿名函数</p>
-<p>function 函数名 () {    }</p>
-<p>function () {    }</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> 函数名 (<span class="params"> </span>) </span>&#123;	&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> (<span class="params"> </span>) </span>&#123;	&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
 <li><p>11.jQuery中的事件绑定(很重要)</p>
-<p>jQuery对象.on(事件名,function(){ })</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jQuery对象.on(事件名,function()&#123; &#125;)</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>12.ajax中的一些异步请求方法</p>
-<ul>
-<li>$.post(“url”,”请求参数”,function(result){},”type”)</li>
-<li>$.ajax()</li>
-</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$.post(&quot;url&quot;,&quot;请求参数&quot;,function(result)&#123;&#125;,&quot;type&quot;)</span><br><span class="line">$.ajax()</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <h3 id="四、Web服务器端"><a href="#四、Web服务器端" class="headerlink" title="四、Web服务器端"></a>四、Web服务器端</h3><ul>
-<li>1.了解Http协议<ul>
+<li><p>1.了解Http协议</p>
+<ul>
 <li>请求:<ul>
 <li>请求行</li>
 <li>请求头</li>
@@ -283,10 +262,14 @@
 </li>
 </ul>
 </li>
-<li>2.知道安装tomcat</li>
-<li>3.将tomcat集成idea</li>
-<li>4.使用idea创建一个Web项目</li>
-<li>5.Servlet<ul>
+<li><p>2.知道安装tomcat</p>
+</li>
+<li><p>3.将tomcat集成idea</p>
+</li>
+<li><p>4.使用idea创建一个Web项目</p>
+</li>
+<li><p>5.Servlet</p>
+<ul>
 <li>1.Servlet的编写方法，怎么样编写一个基于注解的Servlet</li>
 <li>2.Servlet的作用:<ul>
 <li>获取请求</li>
@@ -302,61 +285,88 @@
 </li>
 </ul>
 </li>
-<li>6.request<ul>
-<li>1.作用：<ul>
-<li>1.获取请求参数:<ul>
-<li>getParameter(name)</li>
-<li>getParameterValues(name)</li>
-<li>getParameterMap()</li>
-</ul>
+<li><p>6.request</p>
+<ul>
+<li><p>1.作用：</p>
+<blockquote>
+<ul>
+<li>1.获取请求参数:<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">getParameter(name)</span><br><span class="line">getParameterValues(name)</span><br><span class="line">getParameterMap()</span><br></pre></td></tr></table></figure>
 </li>
-<li>2.作为域对象存取值(范围是一次请求中)<ul>
-<li>setAttribute(name,obj)</li>
-<li>getAttribute(name)</li>
 </ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>2.作为域对象存取值(范围是一次请求中)<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">setAttribute(name,obj)</span><br><span class="line">getAttribute(name)</span><br></pre></td></tr></table></figure>
 </li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
 <li>3.请求转发:getRequestDispatcher(path).forward(request,response)</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
 <li>4.setCharacterEncoding(“UTF-8”)</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
 <li>5.getSession()获取session对象</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
 <li>6.getCookies()获取请求中的所有cookie</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
 <li>7.getHeader(name)获取请求头信息</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
 <li>8.getMethod()获取请求方法</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
 <li>9.getRequestURL()获取请求的url地址</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
 <li>10.getRemoteAddr()获取客户端的IP地址</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
 <li>11.getContextPath()获取项目路径</li>
 </ul>
+</blockquote>
 </li>
 <li>2.request的作用域以及生命周期(了解)</li>
 </ul>
 </li>
-<li>7.response<ul>
-<li>作用:<ul>
-<li>setStatus()设置响应状态码</li>
-<li>setHeader()设置响应头</li>
-<li>getWriter()获取字符输出流</li>
-<li>getOutputStream()获取字节输出流</li>
-<li>sendRedirect(path)重定向</li>
-<li>setContentType(“text/html;charset=utf-8”)</li>
-<li>addCookie(cookie),将cookie发送到客户端</li>
-</ul>
+<li><p>7.response</p>
+<ul>
+<li>作用:<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">setStatus()设置响应状态码</span><br><span class="line">setHeader()设置响应头</span><br><span class="line">getWriter()获取字符输出流</span><br><span class="line">getOutputStream()获取字节输出流</span><br><span class="line">sendRedirect(path)重定向</span><br><span class="line">setContentType(<span class="string">"text/html;charset=utf-8"</span>)</span><br><span class="line">addCookie(cookie),将cookie发送到客户端</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
-<li>8.ServletContext<ul>
+<li><p>8.ServletContext</p>
+<ul>
 <li>1.作为域对象存取值:范围是整个项目中所有用户共享的数据</li>
 <li>2.获取资源文件的真实路径，默认获取的是项目路径</li>
 <li>3.getResourceAsStram()，将资源文件转换成流</li>
 </ul>
 </li>
-<li>9.cookie：将服务器的一小份数据存放到客户端，以后客户端每次访问服务器都会将这小份数据携带过来<ul>
-<li>new Cookie(name,value)</li>
-<li>setMaxAge()</li>
-<li>setPath()</li>
-<li>getName()</li>
-<li>getValue()</li>
-</ul>
+<li><p>9.cookie：将服务器的一小份数据存放到客户端，以后客户端每次访问服务器都会将这小份数据携带过来</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> </span><br></pre></td></tr></table></figure>
 </li>
-<li>10.session(一次会话中只会存在一个session对象)<ul>
+<li><p>10.session(一次会话中只会存在一个session对象)</p>
+<ul>
 <li>作用范围:一次会话中</li>
 <li>1.获取session:request.getSession()</li>
 <li>2.存数据：setAttribute()</li>
@@ -364,7 +374,8 @@
 <li>4.手动销毁session:invalidate()方法</li>
 </ul>
 </li>
-<li>11.Filter过滤器<ul>
+<li><p>11.Filter过滤器</p>
+<ul>
 <li>1.作用:对请求资源的过滤作用</li>
 <li>2.创建一个基于注解的过滤器</li>
 <li>3.怎么样拦截请求，怎么样放行请求:chain.doFilter(request,response)</li>
@@ -382,7 +393,8 @@
 <li>6.生命周期:当服务器启动的时候创建，当服务器关闭的时候销毁</li>
 </ul>
 </li>
-<li>json数据格式<ul>
+<li><p>json数据格式</p>
+<ul>
 <li>格式{key:value,key:value}</li>
 </ul>
 </li>
